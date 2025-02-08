@@ -39,7 +39,7 @@ function showPopup(title, content, onSave) {
       ${content}
     </div>
     <div class="popup-footer">
-      <button id="save-popup">Guardar</button>
+      <button id="save-popup">Save</button>
     </div>
   `;
   popup.innerHTML = popupContent;
