@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #241F60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.input-group, .button-group, .ipercorrezione-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #F6B2B6;
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#calcolatore-avanzato {
+    background-color: #64BFBF;
+}
+
+    #calcolatore-avanzato:hover {
+        background-color: #56A1A1;
+    }
+
+#calcolatore-avanzato,
+#consider-expansion,
+.popup-footer button {
+    background-color: #64BFBF;
+}
+
+    #calcolatore-avanzato:hover,
+    #consider-expansion:hover,
+    .popup-footer button:hover {
+        background-color: #56A1A1;
+    }
+
+button:hover {
+  background-color: #e08d96;
+}
+
+#calcola-valore {
+    background-color: #FFFFFF;
+    color: black; /* Per garantire che il testo sia visibile */
+    border: 1px solid #000; /* Per aggiungere un bordo nero sottile */
+}
+
+    #calcola-valore:hover {
+        background-color: #F0F0F0; /* Un leggero grigio al passaggio del mouse */
+    }
+
+.small-input {
+  width: 50px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1A1364;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.popup-header h2 {
+  margin: 0;
+}
+
+.close-popup {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.popup-body {
+  font-size: 16px;
+}
+
+.popup-footer {
+  margin-top: 20px;
+  text-align: center;
+}

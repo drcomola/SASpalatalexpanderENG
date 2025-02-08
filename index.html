@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS Palatal Expander Calculator. by Dr. Giorgio Comola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SAS Palatal Expander Calculator </h1>
+        <h1>By Dr. Giorgio Comola</h1>
+
+        <img src="sfere.png" alt="Sfere" class="image">
+
+        <div class="input-group">
+            <label for="arcata-superiore">Upper Arch (MP Cusps Distance):</label>
+            <input type="number" id="arcata-superiore" placeholder="Add your value">
+        </div>
+
+        <div class="input-group">
+            <label for="arcata-inferiore">Lower Arch (MV Cusps Distance):</label>
+            <input type="number" id="arcata-inferiore" placeholder="Add your value">
+        </div>
+
+        <p>Add Torque values for upper and lower compensation</p>
+
+        <div class="button-group">
+            <button id="calcolatore-semplicato">Easy Calculator</button>
+            <button id="calcolatore-avanzato">Advanced Calculator</button>
+        </div>
+
+        <button id="calcola-valore">Calculate suggested expansion</button>
+
+        <p id="risultato"></p>
+
+        <div class="ipercorrezione-group">
+            <p>Class III Ipercorrection:</p>
+            <button class="ipercorrezione" data-valore="2">Low</button>
+            <button class="ipercorrezione" data-valore="3">Moderate</button>
+            <button class="ipercorrezione" data-valore="4">Heavy</button>
+        </div>
+
+        <p id="risultato-iper"></p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
