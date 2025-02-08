@@ -5,6 +5,13 @@ let decompensazioneAvanzata = 0;
 let espansioneDentale = 0;
 let ipercorrezione = 0;
 
+window.onload = function () {
+    const sfondo = document.createElement('div');
+    sfondo.classList.add('sfondo-ondulato');
+    document.body.appendChild(sfondo);
+};
+
+
 function calculateResult() {
   const arcataSuperiore = parseFloat(document.getElementById("arcata-superiore").value) || 0;
   const arcataInferiore = parseFloat(document.getElementById("arcata-inferiore").value) || 0;
