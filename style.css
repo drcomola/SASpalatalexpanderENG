@@ -139,3 +139,29 @@ button:hover {
   margin-top: 20px;
   text-align: center;
 }
+.sfondo-ondulato {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    animation: wave 10s infinite alternate ease-in-out;
+    background: url('IPEsfondo.png') no-repeat center center;
+    background-size: cover;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
